@@ -124,7 +124,7 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/popper.min.js"></script> 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-	
+	<script src="js/mixpanel.js"></script>
 	<script>
 		var app = new Vue({
 		  el: '#app',
@@ -134,11 +134,14 @@
 		  	text: "Whether white lies, fabrication, half truths, bold-faced lies, lying in exaggeration and compulsive lying, it hurts to be on the other side",
 		  	image: "img/land.jpg"},
 		  	{text: "No one likes to be referred to in reference to their competitor. Unfortunately, I don’t know how else to put this across easily. The moment…",
-		  	title: "Uru — The Ghanaian L*ft of Uber",
+		  	title: "Uru, The Ghanaian L*ft of Uber",
 		  	image: "img/crew.jpg"},
 		  	]
 		  }
 		});
 	</script>
+	<script>
+        mixpanel.track("visits");
+     </script>    
 </body>
 </html>
