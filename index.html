@@ -45,7 +45,7 @@
 						<div class="card-style">
 							<div class="card-block">
 								<h4 class="card-title">Web Development</h4>
-								<p>Proficient with html, css , javascript and Vuejs library</p>	
+								<p>Proficient with html, css , javascript and Vuejs library</p>
 								<p>back end with ruby, python using rails and flask frameworks</p>
 							</div>
 						</div>
@@ -95,7 +95,7 @@
 								<div class="col-md-4">
 									<img :src="article.image" class="img-fluid">
 								</div>
-								<div class="col-md-8">									
+								<div class="col-md-8">
 									<h4 v-html="article.title">...</h4>
 									<p class="p-font" v-html="article.text">...</p>
 									<a class="contact-a" href="">READ MORE ...</a>
@@ -108,7 +108,7 @@
 					</div>
 					<div class="col-md-4">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8852090709233!2d36.846049415351665!3d-1.239185299096139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f166854f91dc3%3A0xffe5276c75a11f9f!2sKenya+Pipeline!5e0!3m2!1sen!2ske!4v1506861958225" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</div>					
+					</div>
 				</div>
 				</div>
 			</div>
@@ -122,7 +122,7 @@
 	</div>
 	<script src="https://unpkg.com/vue"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/popper.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 	<script src="js/mixpanel.js"></script>
 	<script>
@@ -130,11 +130,11 @@
 		  el: '#app',
 		  data: {
 		  	articles: [
-		  	{title: "Untangling the web (snowball) of lies",
-		  	text: "Whether white lies, fabrication, half truths, bold-faced lies, lying in exaggeration and compulsive lying, it hurts to be on the other side",
+		  	{title: "User On-boarding",
+		  	text: "Before I download an app on Google playstore, I go through the screenshots provided on the listing to have an idea of what the app is about and the design. If this is a go ahead, I check the....",
 		  	image: "img/land.jpg"},
-		  	{text: "No one likes to be referred to in reference to their competitor. Unfortunately, I don’t know how else to put this across easily. The moment…",
-		  	title: "Uru, The Ghanaian L*ft of Uber",
+		  	{text: "Every business needs to know if their customers or users are satisfied with the service/product. Unfortunately, very few customers take their time to provide that feedback. Most of them, if unsatisfied, they walk away...",
+		  	title: "Customer Feedback",
 		  	image: "img/crew.jpg"},
 		  	]
 		  }
@@ -142,6 +142,6 @@
 	</script>
 	<script>
         mixpanel.track("visits");
-     </script>    
+     </script>
 </body>
 </html>
